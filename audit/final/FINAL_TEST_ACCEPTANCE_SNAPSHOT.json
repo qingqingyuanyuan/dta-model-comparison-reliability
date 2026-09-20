@@ -1,0 +1,150 @@
+{
+  "snapshot_version": 1,
+  "created_at_utc": "2026-09-12T12:52:12.326897+00:00",
+  "workspace": "/root/rivermind-data/FINAL_TEST_WORKSPACE",
+  "held_out_test_state": "SEALED_NOT_EVALUATED",
+  "official_direct_pass": {
+    "primary": 54,
+    "controlled_baseline": 18,
+    "sensitivity": 36,
+    "total": 108
+  },
+  "graphdta_compatibility_pass": 18,
+  "effective_pretest_acceptance": 126,
+  "official_graphdta_failure_reason": "HISTORY_NON_FINITE_DRUG_GRAD_NORM",
+  "compatibility_basis": "GraphDTA has no self.drug_encoder; actual drug branch is input_proj + gcn_layers + drug_output.",
+  "plan_sha256": {
+    "primary": "f58edf480df983a91fc28dcb5e293d7d517fa0763139873907cbd6a7aacbe9e4",
+    "baseline": "12e10d76ca42ce7322780ed2f8c6e51baaf56fa0d070ba510e99b586171df47c",
+    "sensitivity": "750b9459be67a4ad0cc727516b6a6e1c79fa42b5cc8598dd1879a01fd9d1b906"
+  },
+  "graphdta_evidence": [
+    {
+      "stem": "graphdta_gcn_style__kiba_warm_seed42",
+      "checkpoint_sha256": "f1f6ae9cac89a16f5cabe0e4aba448ee71da0d95079e8080bf6a25fd2e8fa1a9",
+      "graph_drug_parameter_count": 10,
+      "graph_drug_branch_norm": 86.47295136889679,
+      "validation_prediction_range": 0.77771448
+    },
+    {
+      "stem": "graphdta_gcn_style__kiba_warm_seed123",
+      "checkpoint_sha256": "5090bba8190a7ce5d66c8ee8626bcf0ccba8a2c42104a0190acab493b90246b9",
+      "graph_drug_parameter_count": 10,
+      "graph_drug_branch_norm": 88.57399558176948,
+      "validation_prediction_range": 0.74619514
+    },
+    {
+      "stem": "graphdta_gcn_style__kiba_warm_seed2026",
+      "checkpoint_sha256": "41f4a38c2df323ef88a05c71c56705e4a3afb029c33efb38e34ae33c208a88c5",
+      "graph_drug_parameter_count": 10,
+      "graph_drug_branch_norm": 80.46615217515361,
+      "validation_prediction_range": 0.70500547
+    },
+    {
+      "stem": "graphdta_gcn_style__kiba_cold_drug_seed42",
+      "checkpoint_sha256": "28e034f52f902e97479c8764252404df01df82a16b998065d3a929d253e362e1",
+      "graph_drug_parameter_count": 10,
+      "graph_drug_branch_norm": 72.02531749432917,
+      "validation_prediction_range": 0.32731776
+    },
+    {
+      "stem": "graphdta_gcn_style__kiba_cold_drug_seed123",
+      "checkpoint_sha256": "73f9e4905a20e1ce6990f8d1f243be39211aa0e347f2ab8a6a0e50a7ec20e5c6",
+      "graph_drug_parameter_count": 10,
+      "graph_drug_branch_norm": 66.97285626666087,
+      "validation_prediction_range": 0.32463213
+    },
+    {
+      "stem": "graphdta_gcn_style__kiba_cold_drug_seed2026",
+      "checkpoint_sha256": "15b7e596a4e589fb92f8418e0291cd39e2f6313269c5f9db9fb3c95d888d64f7",
+      "graph_drug_parameter_count": 10,
+      "graph_drug_branch_norm": 70.91976890580035,
+      "validation_prediction_range": 0.34817405999999995
+    },
+    {
+      "stem": "graphdta_gcn_style__kiba_cold_target_seed42",
+      "checkpoint_sha256": "bcebfe5193ab9d2447f577664e751bd3279828e0b66c1ec0e5089fa4a170c4c2",
+      "graph_drug_parameter_count": 10,
+      "graph_drug_branch_norm": 54.324731163438464,
+      "validation_prediction_range": 0.98721635
+    },
+    {
+      "stem": "graphdta_gcn_style__kiba_cold_target_seed123",
+      "checkpoint_sha256": "37bfc9b77e147552b34270ae2adbfae45e34cd699cf85e84fe16d9629d2f9868",
+      "graph_drug_parameter_count": 10,
+      "graph_drug_branch_norm": 56.445441563336615,
+      "validation_prediction_range": 0.68399999
+    },
+    {
+      "stem": "graphdta_gcn_style__kiba_cold_target_seed2026",
+      "checkpoint_sha256": "eae7e5a6fb5d51a6573505bc27dca72a784d51acb424c87a1b1669ad69e890c8",
+      "graph_drug_parameter_count": 10,
+      "graph_drug_branch_norm": 65.81533471955393,
+      "validation_prediction_range": 0.60941987
+    },
+    {
+      "stem": "graphdta_gcn_style__davis_warm_seed42",
+      "checkpoint_sha256": "9ee7fe66d46fb7455acf0cdcbe8d00f7a55e256155a7a7f3fa846063a2bbc1b1",
+      "graph_drug_parameter_count": 10,
+      "graph_drug_branch_norm": 38.22887073925487,
+      "validation_prediction_range": 0.785511705
+    },
+    {
+      "stem": "graphdta_gcn_style__davis_warm_seed123",
+      "checkpoint_sha256": "58e5f02b0ed5e997dc41afd73bc09cc2364028b99e7a5210cc8641dbc632edd2",
+      "graph_drug_parameter_count": 10,
+      "graph_drug_branch_norm": 44.652772693310745,
+      "validation_prediction_range": 0.747495391
+    },
+    {
+      "stem": "graphdta_gcn_style__davis_warm_seed2026",
+      "checkpoint_sha256": "3286f3c6bf9e335ca0fc7a9c59d8cad20fa7b7e4148ca06874167650db37bd3c",
+      "graph_drug_parameter_count": 10,
+      "graph_drug_branch_norm": 39.720312736075755,
+      "validation_prediction_range": 0.7693405329999999
+    },
+    {
+      "stem": "graphdta_gcn_style__davis_cold_drug_seed42",
+      "checkpoint_sha256": "ce41db1deb8b740959c5b18b3438c070391ee682e41d3082ef4814d5c8187d56",
+      "graph_drug_parameter_count": 10,
+      "graph_drug_branch_norm": 31.99255604374481,
+      "validation_prediction_range": 0.511141633
+    },
+    {
+      "stem": "graphdta_gcn_style__davis_cold_drug_seed123",
+      "checkpoint_sha256": "6cb0121ba202a50f12f6fcde0bdf6b663f05a583dc35b883fc0446652d77d5a3",
+      "graph_drug_parameter_count": 10,
+      "graph_drug_branch_norm": 30.502210107543846,
+      "validation_prediction_range": 0.636633393
+    },
+    {
+      "stem": "graphdta_gcn_style__davis_cold_drug_seed2026",
+      "checkpoint_sha256": "9789085eb2c81229f04dde1378cb56051a550aebbfa8578211a92ac2d0d318d9",
+      "graph_drug_parameter_count": 10,
+      "graph_drug_branch_norm": 31.363187399944827,
+      "validation_prediction_range": 0.7387696168
+    },
+    {
+      "stem": "graphdta_gcn_style__davis_cold_target_seed42",
+      "checkpoint_sha256": "f7baee638d1e44b2a169236c54b48cb9ffa401a584da6911c70bd38dde45fc11",
+      "graph_drug_parameter_count": 10,
+      "graph_drug_branch_norm": 39.829745367827535,
+      "validation_prediction_range": 0.717252502
+    },
+    {
+      "stem": "graphdta_gcn_style__davis_cold_target_seed123",
+      "checkpoint_sha256": "3aa61be0ffbe19f1bba4971e6a863d702bbb00ad7f0ee0f55a840366b805f560",
+      "graph_drug_parameter_count": 10,
+      "graph_drug_branch_norm": 43.387920017841566,
+      "validation_prediction_range": 0.80129739
+    },
+    {
+      "stem": "graphdta_gcn_style__davis_cold_target_seed2026",
+      "checkpoint_sha256": "1084d89c51eac5c39a19c84c75c3b0749aa545c05a618d7993e5b5e0d59dcf4a",
+      "graph_drug_parameter_count": 10,
+      "graph_drug_branch_norm": 41.42569691578843,
+      "validation_prediction_range": 0.648769956
+    }
+  ],
+  "pre_existing_evaluation_outputs": 0
+}

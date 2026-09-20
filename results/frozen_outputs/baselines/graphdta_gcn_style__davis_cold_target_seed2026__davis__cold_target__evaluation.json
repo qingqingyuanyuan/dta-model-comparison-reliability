@@ -1,0 +1,89 @@
+{
+  "evaluation_artifact_version": 1,
+  "experiment_family": "controlled_baseline",
+  "metric_schema_version": "zhiy_graph_regression_metrics_v2",
+  "baseline_name": "graphdta_gcn_style",
+  "architecture_version": "graphdta_gcn_style_controlled_v1",
+  "baseline_description": "GraphDTA-GCN-style controlled baseline: GCN molecular graph encoder + protein-sequence CNN + concatenation regression head.",
+  "dataset": "DAVIS",
+  "setting": "cold_target",
+  "model_seed": 2026,
+  "input_modality": "molecular_graph+protein_sequence",
+  "checkpoint": "/root/rivermind-data/FINAL_TEST_WORKSPACE/checkpoints/baselines/graphdta_gcn_style__davis_cold_target_seed2026.pt",
+  "checkpoint_sha256": "1084d89c51eac5c39a19c84c75c3b0749aa545c05a618d7993e5b5e0d59dcf4a",
+  "test_csv": "/root/rivermind-data/FINAL_TEST_WORKSPACE/data_final/DAVIS/cold_target/test.csv",
+  "test_csv_sha256": "04ac39ac9600a2123b10343386f20b00a76b4816f424e8d7f3cc3883210e6d3f",
+  "evaluated_at_utc": "2026-09-12T13:27:34.672527+00:00",
+  "test_samples": 4828,
+  "unique_model_inputs": 4624,
+  "scaler": {
+    "method": "minmax",
+    "fit_on": "train_only",
+    "min": 5.0,
+    "max": 10.79588002,
+    "range": 5.79588002
+  },
+  "baseline_config": {
+    "architecture_version": "graphdta_gcn_style_controlled_v1",
+    "input_modality": "molecular_graph+protein_sequence",
+    "max_protein_len": 1500,
+    "node_dim": 41,
+    "gcn_hidden_dim": 128,
+    "gcn_layers": 3,
+    "graph_pooling": "max",
+    "protein_vocab_size": 22,
+    "protein_embed_dim": 128,
+    "conv_channels": [
+      32,
+      64,
+      96
+    ],
+    "kernel_sizes": [
+      3,
+      5,
+      7
+    ],
+    "encoder_output_dim": 128,
+    "predictor_hidden_dims": [
+      512,
+      256
+    ],
+    "dropout": 0.2,
+    "description": "GraphDTA-GCN-style controlled baseline: GCN molecular graph encoder + protein-sequence CNN + concatenation regression head."
+  },
+  "parameter_summary": {
+    "drug_encoder": 71424,
+    "protein_encoder": 81216,
+    "predictor": 263169,
+    "total": 415809
+  },
+  "record_level_metrics": {
+    "metric_schema_version": "zhiy_graph_regression_metrics_v2",
+    "n": 4828,
+    "mse_norm": 0.013900578924667,
+    "rmse_norm": 0.11790071638742065,
+    "mae_norm": 0.06667115879830796,
+    "ci": 0.7851743424365945,
+    "mse_raw": 0.46695137773446066,
+    "rmse_raw": 0.6833384064535379,
+    "mae_raw": 0.3864180371893603,
+    "scaler_range": 5.79588002
+  },
+  "unique_input_level_metrics": {
+    "metric_schema_version": "zhiy_graph_regression_metrics_v2",
+    "n": 4624,
+    "mse_norm": 0.013868686120590133,
+    "rmse_norm": 0.11776538591874156,
+    "mae_norm": 0.0664768862313528,
+    "ci": 0.784067400728089,
+    "mse_raw": 0.4658800274774521,
+    "rmse_raw": 0.6825540472940236,
+    "mae_raw": 0.3852920567001108,
+    "scaler_range": 5.79588002
+  },
+  "primary_metrics_level": "record",
+  "sensitivity_metrics_level": "unique_input_median_observed_label",
+  "record_prediction_file": "/root/rivermind-data/FINAL_TEST_WORKSPACE/evaluation_outputs/baselines/graphdta_gcn_style__davis_cold_target_seed2026__davis__cold_target__test_predictions.csv",
+  "unique_input_prediction_file": "/root/rivermind-data/FINAL_TEST_WORKSPACE/evaluation_outputs/baselines/graphdta_gcn_style__davis_cold_target_seed2026__davis__cold_target__unique_input_predictions.csv",
+  "reporting_label": "controlled style reimplementation; not a claim of exact published-repository reproduction"
+}

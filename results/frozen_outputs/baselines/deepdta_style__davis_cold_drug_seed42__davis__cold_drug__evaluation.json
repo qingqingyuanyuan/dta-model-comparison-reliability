@@ -1,0 +1,88 @@
+{
+  "evaluation_artifact_version": 1,
+  "experiment_family": "controlled_baseline",
+  "metric_schema_version": "zhiy_graph_regression_metrics_v2",
+  "baseline_name": "deepdta_style",
+  "architecture_version": "deepdta_style_controlled_v1",
+  "baseline_description": "DeepDTA-style controlled baseline: character-level canonical-SMILES CNN + protein-sequence CNN + concatenation regression head.",
+  "dataset": "DAVIS",
+  "setting": "cold_drug",
+  "model_seed": 42,
+  "input_modality": "smiles_sequence+protein_sequence",
+  "checkpoint": "/root/rivermind-data/FINAL_TEST_WORKSPACE/checkpoints/baselines/deepdta_style__davis_cold_drug_seed42.pt",
+  "checkpoint_sha256": "f7279ddfb7869feb00376037cdd6208029f2d443eb47d83b9420881b4c049ade",
+  "test_csv": "/root/rivermind-data/FINAL_TEST_WORKSPACE/data_final/DAVIS/cold_drug/test.csv",
+  "test_csv_sha256": "721096db2e32acf6829a6386cb7be52197ee21fec65b0baa94705346c77fd963",
+  "evaluated_at_utc": "2026-09-12T13:25:59.457254+00:00",
+  "test_samples": 2652,
+  "unique_model_inputs": 2274,
+  "scaler": {
+    "method": "minmax",
+    "fit_on": "train_only",
+    "min": 5.0,
+    "max": 10.79588002,
+    "range": 5.79588002
+  },
+  "baseline_config": {
+    "architecture_version": "deepdta_style_controlled_v1",
+    "input_modality": "smiles_sequence+protein_sequence",
+    "max_smiles_len": 200,
+    "max_protein_len": 1500,
+    "smiles_vocab": "fixed_printable_ascii",
+    "smiles_embed_dim": 64,
+    "protein_vocab_size": 22,
+    "protein_embed_dim": 128,
+    "conv_channels": [
+      32,
+      64,
+      96
+    ],
+    "kernel_sizes": [
+      3,
+      5,
+      7
+    ],
+    "encoder_output_dim": 128,
+    "predictor_hidden_dims": [
+      512,
+      256
+    ],
+    "dropout": 0.2,
+    "description": "DeepDTA-style controlled baseline: character-level canonical-SMILES CNN + protein-sequence CNN + concatenation regression head."
+  },
+  "parameter_summary": {
+    "drug_encoder": 78464,
+    "protein_encoder": 81216,
+    "predictor": 263169,
+    "total": 422849
+  },
+  "record_level_metrics": {
+    "metric_schema_version": "zhiy_graph_regression_metrics_v2",
+    "n": 2652,
+    "mse_norm": 0.01693831618911833,
+    "rmse_norm": 0.13014728652230262,
+    "mae_norm": 0.07580499075490807,
+    "ci": 0.6822313952619019,
+    "mse_raw": 0.5689957320392827,
+    "rmse_raw": 0.754318057611829,
+    "mae_raw": 0.4393566313326565,
+    "scaler_range": 5.79588002
+  },
+  "unique_input_level_metrics": {
+    "metric_schema_version": "zhiy_graph_regression_metrics_v2",
+    "n": 2274,
+    "mse_norm": 0.015077341604828386,
+    "rmse_norm": 0.1227898269598438,
+    "mae_norm": 0.0701956101264589,
+    "ci": 0.6662161677104613,
+    "mse_raw": 0.5064814547007347,
+    "rmse_raw": 0.711675104735816,
+    "mae_raw": 0.40684533422365293,
+    "scaler_range": 5.79588002
+  },
+  "primary_metrics_level": "record",
+  "sensitivity_metrics_level": "unique_input_median_observed_label",
+  "record_prediction_file": "/root/rivermind-data/FINAL_TEST_WORKSPACE/evaluation_outputs/baselines/deepdta_style__davis_cold_drug_seed42__davis__cold_drug__test_predictions.csv",
+  "unique_input_prediction_file": "/root/rivermind-data/FINAL_TEST_WORKSPACE/evaluation_outputs/baselines/deepdta_style__davis_cold_drug_seed42__davis__cold_drug__unique_input_predictions.csv",
+  "reporting_label": "controlled style reimplementation; not a claim of exact published-repository reproduction"
+}

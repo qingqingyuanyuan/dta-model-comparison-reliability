@@ -1,0 +1,6 @@
+﻿Target,N_compounds,Model,Kendall_tau_b,Top10_overlap_count,Top10_overlap_fraction,RMSE_raw,Observed_top10_cutoff,Observed_cutoff_tied_count,Observed_top10_boundary_ambiguous,Predicted_top10_cutoff,Predicted_cutoff_tied_count,Predicted_top10_boundary_ambiguous,concordant,discordant,ties_observed_only,ties_prediction_only,ties_both
+VEGFR2,68,ConcatFusion,0.644717560253277,4,0.4,0.8572293249309203,7.585026652,1,False,6.625307133845978,1,False,1472,210,596,0,0
+VEGFR2,68,ProductFusion,0.7182827969224306,5,0.5,0.663830061423593,7.585026652,1,False,6.776442150451518,1,False,1544,138,596,0,0
+VEGFR2,68,AttentionFusion,0.5966958085386905,4,0.4,0.887676755761567,7.585026652,1,False,6.944536700563205,1,False,1425,257,596,0,0
+VEGFR2,68,DeepDTA-style,0.7417828030806324,5,0.5,0.5812724786454974,7.585026652,1,False,7.100920095846045,1,False,1567,115,596,0,0
+VEGFR2,68,GraphDTA-GCN-style,0.7785654214152092,7,0.7,0.4278168938135357,7.585026652,1,False,7.368292686657249,1,False,1603,79,596,0,0

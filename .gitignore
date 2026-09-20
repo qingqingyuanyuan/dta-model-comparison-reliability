@@ -1,0 +1,46 @@
+# Raw / third-party datasets
+data/raw/
+raw/
+datasets/raw/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Large archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+credentials*
+secrets*
+
+# Per-record / per-input prediction artifacts
+*test_predictions.csv
+*unique_input_predictions.csv

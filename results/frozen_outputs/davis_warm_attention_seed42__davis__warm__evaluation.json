@@ -1,0 +1,69 @@
+{
+  "evaluation_artifact_version": 3,
+  "experiment_family": "primary",
+  "sensitivity_name": null,
+  "sensitivity_overrides": null,
+  "metric_schema_version": "zhiy_graph_regression_metrics_v2",
+  "architecture_version": "zhiy_graph_v3_token_cross_attention",
+  "dataset": "DAVIS",
+  "setting": "warm",
+  "fusion": "attention",
+  "model_seed": 42,
+  "checkpoint": "/root/rivermind-data/FINAL_TEST_WORKSPACE/checkpoints/davis_warm_attention_seed42.pt",
+  "checkpoint_sha256": "f13865fa1f2513d67c629412f91dac47712ec81d7f8d1a519ea32311e9b33ae5",
+  "test_csv": "/root/rivermind-data/FINAL_TEST_WORKSPACE/data_final/DAVIS/warm/test.csv",
+  "test_csv_sha256": "ae87e7793e9523435a00d5dc0a3c6e8fc300b17d738b16723fa9744a1c0a7ff1",
+  "evaluated_at_utc": "2026-09-12T13:08:56.373772+00:00",
+  "test_samples": 3005,
+  "unique_model_inputs": 2559,
+  "repeated_records_beyond_unique_inputs": 446,
+  "repeated_fraction": 0.14841930116472546,
+  "scaler": {
+    "method": "minmax",
+    "fit_on": "train_only",
+    "min": 5.0,
+    "max": 10.79588002,
+    "range": 5.79588002
+  },
+  "protein_protocol": {
+    "max_len": 1500,
+    "truncation": "right",
+    "dynamic_batch_padding_trim": true
+  },
+  "parameter_summary": {
+    "drug_encoder": 60672,
+    "protein_encoder": 167616,
+    "fusion": 68288,
+    "predictor": 297729,
+    "total": 594305
+  },
+  "primary_metrics_level": "record",
+  "record_level_metrics": {
+    "metric_schema_version": "zhiy_graph_regression_metrics_v2",
+    "n": 3005,
+    "mse_norm": 0.007586861521979055,
+    "rmse_norm": 0.08710259193605581,
+    "mae_norm": 0.05208195437221616,
+    "ci": 0.8573329379253152,
+    "mse_raw": 0.2548595608548408,
+    "rmse_raw": 0.5048361722923991,
+    "mae_raw": 0.3018607587484793,
+    "scaler_range": 5.79588002
+  },
+  "sensitivity_metrics_level": "unique_input_median_observed_label",
+  "unique_input_level_metrics": {
+    "metric_schema_version": "zhiy_graph_regression_metrics_v2",
+    "n": 2559,
+    "mse_norm": 0.007332080133337915,
+    "rmse_norm": 0.08562756643358443,
+    "mae_norm": 0.05116722342361289,
+    "ci": 0.8597352273615211,
+    "mse_raw": 0.2463008870692503,
+    "rmse_raw": 0.4962871014536347,
+    "mae_raw": 0.29655908791979396,
+    "scaler_range": 5.79588002
+  },
+  "record_prediction_file": "/root/rivermind-data/FINAL_TEST_WORKSPACE/evaluation_outputs/davis_warm_attention_seed42__davis__warm__test_predictions.csv",
+  "unique_input_prediction_file": "/root/rivermind-data/FINAL_TEST_WORKSPACE/evaluation_outputs/davis_warm_attention_seed42__davis__warm__unique_input_predictions.csv",
+  "note": "Record-level metrics are primary because the benchmark-full policy retains all non-exact-duplicate records. Unique-input metrics are a prespecified sensitivity analysis preventing repeated assay records from receiving extra weight."
+}

@@ -1,0 +1,11 @@
+﻿Compound_ID,Observed_Rank,Observed_Label,Canonical_SMILES,ConcatFusion_Rank,ProductFusion_Rank,AttentionFusion_Rank,DeepDTA-style_Rank,GraphDTA-GCN-style_Rank
+V01,1,8.958607315,COc1cc2c(Oc3ccc4[nH]c(C)cc4c3F)ncnc2cc1OCCCN1CCCC1,12,3,15,1,1
+V02,2,8.823908741,CCN(CC)CCNC(=O)c1c(C)[nH]c(C=C2C(=O)Nc3ccc(F)cc32)c1C,2,5,4,4,5
+V03,3,8.638272164,Cc1[nH]c(C=C2C(=O)Nc3ccc(F)cc32)c(C)c1C(=O)NCC(O)CN1CCOCC1,5,8,10,12,3
+V04,4,8.537602002,COC(=O)c1ccc2c(c1)NC(=O)C2=C(Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1,4,12,6,17,12
+V05,5,8.301029996,Cc1cc2c(F)c(Oc3ncnn4cc(OCC(C)O)c(C)c34)ccc2[nH]1,17,21,32,13,13
+V06,6,8.229147988,CNC(=O)c1ccccc1Sc1ccc2c(C=Cc3ccccn3)n[nH]c2c1,24,15,17,11,11
+V07,7,8.091514981,Cc1ccc(F)c(NC(=O)Nc2ccc(-c3cccc4[nH]nc(N)c34)cc2)c1,21,11,18,7,7
+V08,8,7.920818754,COc1cc2c(Oc3ccc(NC(=O)C4(C(=O)Nc5ccc(F)cc5)CC4)cc3F)ccnc2cc1OCCCN1CCOCC1,7,1,2,2,2
+V09,9,7.853871964,Cc1ccc(Nc2nccc(N(C)c3ccc4c(C)n(C)nc4c3)n2)cc1S(N)(=O)=O,19,10,29,5,4
+V10,10,7.585026652,CC1(C)CNc2cc(NC(=O)c3cccnc3NCc3ccncc3)ccc21,25,13,23,14,6

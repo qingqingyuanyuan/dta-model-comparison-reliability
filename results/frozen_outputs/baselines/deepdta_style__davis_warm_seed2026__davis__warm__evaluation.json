@@ -1,0 +1,88 @@
+{
+  "evaluation_artifact_version": 1,
+  "experiment_family": "controlled_baseline",
+  "metric_schema_version": "zhiy_graph_regression_metrics_v2",
+  "baseline_name": "deepdta_style",
+  "architecture_version": "deepdta_style_controlled_v1",
+  "baseline_description": "DeepDTA-style controlled baseline: character-level canonical-SMILES CNN + protein-sequence CNN + concatenation regression head.",
+  "dataset": "DAVIS",
+  "setting": "warm",
+  "model_seed": 2026,
+  "input_modality": "smiles_sequence+protein_sequence",
+  "checkpoint": "/root/rivermind-data/FINAL_TEST_WORKSPACE/checkpoints/baselines/deepdta_style__davis_warm_seed2026.pt",
+  "checkpoint_sha256": "90afe91bc33d7bed0073f5ab878cc704849c6d17993585beec49b17a3d0c3509",
+  "test_csv": "/root/rivermind-data/FINAL_TEST_WORKSPACE/data_final/DAVIS/warm/test.csv",
+  "test_csv_sha256": "ae87e7793e9523435a00d5dc0a3c6e8fc300b17d738b16723fa9744a1c0a7ff1",
+  "evaluated_at_utc": "2026-09-12T13:25:25.664960+00:00",
+  "test_samples": 3005,
+  "unique_model_inputs": 2559,
+  "scaler": {
+    "method": "minmax",
+    "fit_on": "train_only",
+    "min": 5.0,
+    "max": 10.79588002,
+    "range": 5.79588002
+  },
+  "baseline_config": {
+    "architecture_version": "deepdta_style_controlled_v1",
+    "input_modality": "smiles_sequence+protein_sequence",
+    "max_smiles_len": 200,
+    "max_protein_len": 1500,
+    "smiles_vocab": "fixed_printable_ascii",
+    "smiles_embed_dim": 64,
+    "protein_vocab_size": 22,
+    "protein_embed_dim": 128,
+    "conv_channels": [
+      32,
+      64,
+      96
+    ],
+    "kernel_sizes": [
+      3,
+      5,
+      7
+    ],
+    "encoder_output_dim": 128,
+    "predictor_hidden_dims": [
+      512,
+      256
+    ],
+    "dropout": 0.2,
+    "description": "DeepDTA-style controlled baseline: character-level canonical-SMILES CNN + protein-sequence CNN + concatenation regression head."
+  },
+  "parameter_summary": {
+    "drug_encoder": 78464,
+    "protein_encoder": 81216,
+    "predictor": 263169,
+    "total": 422849
+  },
+  "record_level_metrics": {
+    "metric_schema_version": "zhiy_graph_regression_metrics_v2",
+    "n": 3005,
+    "mse_norm": 0.005966678404645554,
+    "rmse_norm": 0.0772442774880156,
+    "mae_norm": 0.04237116873163587,
+    "ci": 0.8765519983413859,
+    "mse_raw": 0.20043400470203362,
+    "rmse_raw": 0.4476985645521254,
+    "mae_raw": 0.2455782102757371,
+    "scaler_range": 5.79588002
+  },
+  "unique_input_level_metrics": {
+    "metric_schema_version": "zhiy_graph_regression_metrics_v2",
+    "n": 2559,
+    "mse_norm": 0.005722454655146838,
+    "rmse_norm": 0.07564690776989393,
+    "mae_norm": 0.04095895529741274,
+    "ci": 0.8791141923523936,
+    "mse_raw": 0.19222998550816162,
+    "rmse_raw": 0.438440401318311,
+    "mae_raw": 0.23739319064834763,
+    "scaler_range": 5.79588002
+  },
+  "primary_metrics_level": "record",
+  "sensitivity_metrics_level": "unique_input_median_observed_label",
+  "record_prediction_file": "/root/rivermind-data/FINAL_TEST_WORKSPACE/evaluation_outputs/baselines/deepdta_style__davis_warm_seed2026__davis__warm__test_predictions.csv",
+  "unique_input_prediction_file": "/root/rivermind-data/FINAL_TEST_WORKSPACE/evaluation_outputs/baselines/deepdta_style__davis_warm_seed2026__davis__warm__unique_input_predictions.csv",
+  "reporting_label": "controlled style reimplementation; not a claim of exact published-repository reproduction"
+}

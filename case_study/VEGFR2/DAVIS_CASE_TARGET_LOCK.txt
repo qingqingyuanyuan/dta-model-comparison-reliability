@@ -1,0 +1,17 @@
+Exploratory post-hoc Davis cold-target case-study target lock
+
+Selected target: VEGFR2
+
+Selection was completed before inspecting target-specific model predictions.
+
+Prespecified non-performance-based selection criteria:
+1. The target is present in the final frozen Davis cold-target held-out test set.
+2. Its full protein sequence is absent from the final cold-target training set.
+3. It has a clean one-sequence / one-target-name mapping in the Davis target metadata.
+4. It contains the complete set of 68 Davis compounds in the final held-out test.
+5. It has clear pharmacological/clinical relevance suitable for an application-oriented example.
+6. Its sequence length (1356 aa) is below the primary 1500-aa protein truncation threshold.
+
+Target-specific Prediction_raw values were not used for target selection.
+The target will not be changed based on subsequent case-study results.
+2026-09-18T19:59:42+00:00

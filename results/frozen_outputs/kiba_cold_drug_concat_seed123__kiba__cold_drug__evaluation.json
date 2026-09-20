@@ -1,0 +1,69 @@
+{
+  "evaluation_artifact_version": 3,
+  "experiment_family": "primary",
+  "sensitivity_name": null,
+  "sensitivity_overrides": null,
+  "metric_schema_version": "zhiy_graph_regression_metrics_v2",
+  "architecture_version": "zhiy_graph_v3_token_cross_attention",
+  "dataset": "KIBA",
+  "setting": "cold_drug",
+  "fusion": "concat",
+  "model_seed": 123,
+  "checkpoint": "/root/rivermind-data/FINAL_TEST_WORKSPACE/checkpoints/kiba_cold_drug_concat_seed123.pt",
+  "checkpoint_sha256": "b4017650a148618e1e986fc3f4849604070eea2e2ddcb8226a74f12fd90382f0",
+  "test_csv": "/root/rivermind-data/FINAL_TEST_WORKSPACE/data_final/KIBA/cold_drug/test.csv",
+  "test_csv_sha256": "8887879a42721afb7d5649401eaa5d3de456e0a0e875e6dad8301a5b6a710ba2",
+  "evaluated_at_utc": "2026-09-12T13:02:02.635238+00:00",
+  "test_samples": 11800,
+  "unique_model_inputs": 11800,
+  "repeated_records_beyond_unique_inputs": 0,
+  "repeated_fraction": 0.0,
+  "scaler": {
+    "method": "minmax",
+    "fit_on": "train_only",
+    "min": 0.0,
+    "max": 17.196910013,
+    "range": 17.196910013
+  },
+  "protein_protocol": {
+    "max_len": 1500,
+    "truncation": "right",
+    "dynamic_batch_padding_trim": true
+  },
+  "parameter_summary": {
+    "drug_encoder": 60672,
+    "protein_encoder": 167616,
+    "fusion": 66304,
+    "predictor": 297729,
+    "total": 592321
+  },
+  "primary_metrics_level": "record",
+  "record_level_metrics": {
+    "metric_schema_version": "zhiy_graph_regression_metrics_v2",
+    "n": 11800,
+    "mse_norm": 0.0010956523030724128,
+    "rmse_norm": 0.03310063901305249,
+    "mae_norm": 0.02075496387178615,
+    "ci": 0.7772518870172299,
+    "mse_raw": 0.3240213248350207,
+    "rmse_raw": 0.5692287104802609,
+    "mae_raw": 0.3569212460261726,
+    "scaler_range": 17.196910013
+  },
+  "sensitivity_metrics_level": "unique_input_median_observed_label",
+  "unique_input_level_metrics": {
+    "metric_schema_version": "zhiy_graph_regression_metrics_v2",
+    "n": 11800,
+    "mse_norm": 0.001095652226730184,
+    "rmse_norm": 0.033100637859868866,
+    "mae_norm": 0.02075496148372967,
+    "ci": 0.7772497378777065,
+    "mse_raw": 0.3240213022580498,
+    "rmse_raw": 0.5692286906490658,
+    "mae_raw": 0.35692120495898005,
+    "scaler_range": 17.196910013
+  },
+  "record_prediction_file": "/root/rivermind-data/FINAL_TEST_WORKSPACE/evaluation_outputs/kiba_cold_drug_concat_seed123__kiba__cold_drug__test_predictions.csv",
+  "unique_input_prediction_file": "/root/rivermind-data/FINAL_TEST_WORKSPACE/evaluation_outputs/kiba_cold_drug_concat_seed123__kiba__cold_drug__unique_input_predictions.csv",
+  "note": "Record-level metrics are primary because the benchmark-full policy retains all non-exact-duplicate records. Unique-input metrics are a prespecified sensitivity analysis preventing repeated assay records from receiving extra weight."
+}
