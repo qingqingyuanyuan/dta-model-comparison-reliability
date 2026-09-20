@@ -65,3 +65,11 @@ audit covering all 126 runs.
 
 Citation and permanent archive information will be added upon publication and
 Zenodo archiving.
+
+## Authors
+
+- Haobo Kui — co-first author
+- Xinyuan Cui — co-first author
+- Yanfei Li — corresponding author
+
+Haobo Kui and Xinyuan Cui contributed equally to this work.
