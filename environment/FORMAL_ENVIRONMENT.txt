@@ -11,3 +11,8 @@ rdkit: 2026.03.6
 CUDA runtime used by PyTorch: 12.4
 cuDNN: 90100
 CUDA available: False
+
+Note:
+CUDA device availability was False during this archival inspection because the
+current server session was running without an attached GPU. This does not
+describe GPU availability during the original formal training runs.
