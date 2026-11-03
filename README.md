@@ -63,13 +63,14 @@ audit covering all 126 runs.
 
 ## Citation
 
-The reproducibility materials accompanying this manuscript have been released as version v1.0.0 and permanently archived on Zenodo.
+The reproducibility materials accompanying this manuscript
+have been released as version v1.0.0 and permanently archived
+on Zenodo.
 
-Zenodo DOI: https://doi.org/10.5281/zenodo.22860428
+Version DOI: https://doi.org/10.5281/zenodo.22860429
 
-GitHub repository: https://github.com/qingqingyuanyuan/dta-model-comparison-reliability
-
-Please cite the archived software release when using these materials.
+Concept DOI (all versions):
+https://doi.org/10.5281/zenodo.22860428
 
 ## Authors
 
