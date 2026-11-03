@@ -70,7 +70,6 @@ Zenodo archiving.
 
 - Haobo Kui — co-first author
 - Xinyuan Cui — co-first author
-- Yanfei Li — corresponding author
 
 Haobo Kui and Xinyuan Cui contributed equally to this work.
 
@@ -78,6 +77,5 @@ Haobo Kui and Xinyuan Cui contributed equally to this work.
 
 - Haobo Kui — co-first author
 - Xinyuan Cui — co-first author
-- Yanfei Li — corresponding author
 
 Haobo Kui and Xinyuan Cui contributed equally to this work.
