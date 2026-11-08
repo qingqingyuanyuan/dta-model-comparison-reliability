@@ -63,14 +63,15 @@ audit covering all 126 runs.
 
 ## Citation
 
-The reproducibility materials accompanying this manuscript
-have been released as version v1.0.0 and permanently archived
-on Zenodo.
+The reproducibility materials accompanying this manuscript are versioned and permanently archived on Zenodo.
 
-Version DOI: https://doi.org/10.5281/zenodo.22860429
+Original release (v1.0.0) DOI:
+https://doi.org/10.5281/zenodo.22860429
 
 Concept DOI (all versions):
 https://doi.org/10.5281/zenodo.22860428
+
+For subsequent releases, please cite the version-specific DOI provided on the corresponding Zenodo record.
 
 ## Authors
 
