@@ -79,9 +79,3 @@ https://doi.org/10.5281/zenodo.22860428
 
 Haobo Kui and Xinyuan Cui contributed equally to this work.
 
-## Authors
-
-- Haobo Kui — co-first author
-- Xinyuan Cui — co-first author
-
-Haobo Kui and Xinyuan Cui contributed equally to this work.
