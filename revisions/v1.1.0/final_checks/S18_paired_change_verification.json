@@ -1,0 +1,98 @@
+[
+  {
+    "dataset": "KIBA",
+    "regime": "warm",
+    "model": "D-CM",
+    "mean_delta": 0.010592687536940723,
+    "sample_SD_delta": 0.004689238586905218,
+    "matches_table": true
+  },
+  {
+    "dataset": "KIBA",
+    "regime": "warm",
+    "model": "G-CM",
+    "mean_delta": 0.004996272961083181,
+    "sample_SD_delta": 0.002087377474167138,
+    "matches_table": true
+  },
+  {
+    "dataset": "KIBA",
+    "regime": "cold-drug",
+    "model": "D-CM",
+    "mean_delta": -0.0013486161569681299,
+    "sample_SD_delta": 0.0036122377740543336,
+    "matches_table": true
+  },
+  {
+    "dataset": "KIBA",
+    "regime": "cold-drug",
+    "model": "G-CM",
+    "mean_delta": 0.008642782263362089,
+    "sample_SD_delta": 0.0021975827768584647,
+    "matches_table": true
+  },
+  {
+    "dataset": "KIBA",
+    "regime": "cold-target",
+    "model": "D-CM",
+    "mean_delta": -0.012378570416667123,
+    "sample_SD_delta": 0.05595488612544581,
+    "matches_table": true
+  },
+  {
+    "dataset": "KIBA",
+    "regime": "cold-target",
+    "model": "G-CM",
+    "mean_delta": -0.00035149187067207155,
+    "sample_SD_delta": 0.008777464868436793,
+    "matches_table": true
+  },
+  {
+    "dataset": "DAVIS",
+    "regime": "warm",
+    "model": "D-CM",
+    "mean_delta": 0.003923024906331156,
+    "sample_SD_delta": 0.009511955777576436,
+    "matches_table": true
+  },
+  {
+    "dataset": "DAVIS",
+    "regime": "warm",
+    "model": "G-CM",
+    "mean_delta": 0.008009418059123993,
+    "sample_SD_delta": 0.007122774981036369,
+    "matches_table": true
+  },
+  {
+    "dataset": "DAVIS",
+    "regime": "cold-drug",
+    "model": "D-CM",
+    "mean_delta": 0.02737877662526611,
+    "sample_SD_delta": 0.10266595453771861,
+    "matches_table": true
+  },
+  {
+    "dataset": "DAVIS",
+    "regime": "cold-drug",
+    "model": "G-CM",
+    "mean_delta": -0.005832441526874528,
+    "sample_SD_delta": 0.002171202513518662,
+    "matches_table": true
+  },
+  {
+    "dataset": "DAVIS",
+    "regime": "cold-target",
+    "model": "D-CM",
+    "mean_delta": -0.003913205411828602,
+    "sample_SD_delta": 0.01064908640501643,
+    "matches_table": true
+  },
+  {
+    "dataset": "DAVIS",
+    "regime": "cold-target",
+    "model": "G-CM",
+    "mean_delta": -0.012592987708126743,
+    "sample_SD_delta": 0.016069900069141562,
+    "matches_table": true
+  }
+]

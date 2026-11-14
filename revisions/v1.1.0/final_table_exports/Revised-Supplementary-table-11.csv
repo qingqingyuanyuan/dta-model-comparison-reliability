@@ -1,0 +1,7 @@
+﻿Dataset,Regime pair,Original five mean τ,Replace Concat with mean pooling,Replace Concat with max_len = 1000
+KIBA,warm vs cold-target,+0.60,+0.40,+0.60
+KIBA,warm vs cold-drug,-0.60,-0.60,-0.40
+KIBA,cold-target vs cold-drug,-1.00,-0.40,-0.80
+Davis,warm vs cold-target,-0.20,-0.20,+0.00
+Davis,warm vs cold-drug,-0.40,-0.40,-0.60
+Davis,cold-target vs cold-drug,+0.80,+0.80,+0.40

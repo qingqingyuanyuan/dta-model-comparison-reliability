@@ -1,0 +1,16 @@
+﻿Model,Seed,C-index,Kendall τ-b,RMSE (raw)
+ConcatFusion,42,0.9346,0.7469,0.5324
+ConcatFusion,123,0.6766,0.3035,1.2128
+ConcatFusion,2026,0.7533,0.4353,1.1636
+ProductFusion,42,0.7479,0.4261,1.2873
+ProductFusion,123,0.9441,0.7632,0.4932
+ProductFusion,2026,0.9316,0.7418,0.5252
+AttentionFusion,42,0.8555,0.6110,0.8668
+AttentionFusion,123,0.7479,0.4261,1.2256
+AttentionFusion,2026,0.8460,0.5947,0.9023
+DeepDTA-style,42,0.9435,0.7622,0.5092
+DeepDTA-style,123,0.8347,0.5752,1.0178
+DeepDTA-style,2026,0.9477,0.7694,0.4477
+GraphDTA-GCN-style,42,0.9507,0.7745,0.4109
+GraphDTA-GCN-style,123,0.9620,0.7939,0.3633
+GraphDTA-GCN-style,2026,0.9215,0.7244,0.5967

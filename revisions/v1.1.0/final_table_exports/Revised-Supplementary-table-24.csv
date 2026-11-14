@@ -1,0 +1,10 @@
+﻿Comparison,Kendall tau,Exact two-sided p
+"Original split, cross-setting (v1)",-1.000,0.0167
+"Second split, cross-setting (v3)",-0.600,0.2333
+"Second split, cross-setting, seed 42",-0.600,0.2333
+"Second split, cross-setting, seed 123",-0.400,0.4833
+"Second split, cross-setting, seed 2026",-0.600,0.2333
+"Cold-drug, v1 vs v3 (same setting)",0.800,0.0833
+"Cold-target, v1 vs v3 (same setting)",0.400,0.4833
+"Cold-drug, micro vs macro",0.400,0.4833
+"Cold-target, micro vs macro",1.000,0.0167

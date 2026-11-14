@@ -1,0 +1,34 @@
+{
+  "title": "Reproducibility package for controlled multi-regime evaluation of drug-target affinity models",
+  "description": "<p>Reproducibility materials for <em>Model Rankings in Drug–Target Affinity Prediction Vary Across Evaluation Regimes: A Controlled Multi-Seed Study of Model-Comparison Reliability</em>.</p>\n<p>Version v1.1.0 adds revision evidence to the original 126 runs: 36 AdamW capacity controls, 30 runs on a second KIBA cold-start split, and 90 within-cohort runs on human GPCR Ki (30) and protease Ki (60). The evidence comprises 282 runs. Historical 36-run Adam exploration is auxiliary and excluded.</p>\n<p>Includes supplied training/preparation/evaluation code, configurations, frozen integer membership and hashes, run-level/aggregate metrics, prediction-only projections, histories, conditional statistical summaries and final table corrections. ZIP parts are independently checksummed and extracted with the included unpacking tool. Third-party structures, sequences and source affinity labels are not redistributed. Model weights and large execution logs are omitted from this lightweight release; the omission inventory is explicit. Complete original-126 artifacts and original bootstrap RNG states were not retained.</p>\n<p>The GPCR/protease extension contains two non-kinase target classes. GPCR cold-target includes seven independent test sequences. Protease splits share two test sequences and 163 cold-drug entities and are split-sensitivity evaluations of one cohort, not two independently collected external cohorts. External model capacities are unequal. These results do not establish universal rank reversal, causal fusion superiority, prospective discovery or zero-shot cross-family transfer.</p>\n<p>Final corrections: S17 errors are raw-scale; S13 Delta=A-B; S18 reports paired mean/sample SD rather than bootstrap intervals; S22 sample SD uses ddof=1. Historical numerical artifacts retain their provenance; final table descriptions govern the corrected presentation.</p>\n<p>Author order: Haobo Kui, Xinyuan Cui. Corresponding author: Haobo Kui. No equal-contribution designation is asserted. The new additions retain the supplied candidate's CC BY-NC 4.0 terms; prior v1.0.0/v1.0.1 CC BY 4.0 grants remain unchanged.</p>",
+  "creators": [
+    {
+      "name": "Kui, Haobo",
+      "affiliation": "School of Chemistry and Chemical Engineering, Harbin Normal University, Harbin, China"
+    },
+    {
+      "name": "Cui, Xinyuan",
+      "affiliation": "School of Physics and Electronic Engineering, Harbin Normal University, Harbin, China"
+    }
+  ],
+  "keywords": [
+    "drug-target affinity",
+    "cold-start generalization",
+    "model-comparison reliability",
+    "reproducibility",
+    "GPCR",
+    "proteases"
+  ],
+  "license": "cc-by-nc-4.0",
+  "access_right": "open",
+  "upload_type": "software",
+  "version": "v1.1.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/qingqingyuanyuan/dta-model-comparison-reliability",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "New revision additions follow the supplied CC BY-NC 4.0 candidate terms. Previously published v1.0.0/v1.0.1 material retains its CC BY 4.0 grant. See LICENSE_SCOPE.md. Do not treat the historical snapshots as newly run experiments."
+}

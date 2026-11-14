@@ -1,0 +1,8 @@
+﻿Configuration,Parameters,Optimizer,Role
+ConcatFusion,"592,321",AdamW,original fusion
+ProductFusion,"592,577",AdamW,original fusion
+AttentionFusion,"594,305",AdamW,original fusion
+DeepDTA-style,"422,849",AdamW,original baseline
+GraphDTA-GCN-style,"415,809",AdamW,original baseline
+DeepDTA-CM,"598,497",AdamW,revision control
+GraphDTA-GCN-CM,"581,953",AdamW,revision control

@@ -1,24 +1,20 @@
 cff-version: 1.2.0
-message: "If you use this software or its accompanying reproducibility materials, please cite the associated manuscript."
+message: "Please cite the manuscript and the version-specific archived reproducibility materials when available."
 title: "Reproducibility package for controlled multi-regime evaluation of drug-target affinity models"
 type: software
-version: 1.0.1
-doi: "10.5281/zenodo.22860428"
-
+version: 1.1.0
+date-released: 2026-11-14
 authors:
-  - family-names: "Kui"
-    given-names: "Haobo"
-
-  - family-names: "Cui"
-    given-names: "Xinyuan"
-
-
+  - family-names: Kui
+    given-names: Haobo
+    affiliation: "School of Chemistry and Chemical Engineering, Harbin Normal University, Harbin, China"
+  - family-names: Cui
+    given-names: Xinyuan
+    affiliation: "School of Physics and Electronic Engineering, Harbin Normal University, Harbin, China"
 repository-code: "https://github.com/qingqingyuanyuan/dta-model-comparison-reliability"
-
+url: "https://github.com/qingqingyuanyuan/dta-model-comparison-reliability"
 keywords:
   - drug-target affinity
-  - DTA
+  - model-comparison reliability
   - cold-start generalization
-  - model comparison
   - reproducibility
-  - cross-modal fusion

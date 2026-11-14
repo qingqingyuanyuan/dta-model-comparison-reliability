@@ -1,0 +1,58 @@
+[
+  {
+    "dataset": "KIBA",
+    "A": "ConcatFusion",
+    "B": "DeepDTA-style",
+    "table_delta": 0.0132,
+    "recomputed_A_minus_B": 0.01321796031295941
+  },
+  {
+    "dataset": "KIBA",
+    "A": "ConcatFusion",
+    "B": "GraphDTA-GCN-style",
+    "table_delta": 0.0142,
+    "recomputed_A_minus_B": 0.014224168266169457
+  },
+  {
+    "dataset": "KIBA",
+    "A": "ProductFusion",
+    "B": "DeepDTA-style",
+    "table_delta": 0.0127,
+    "recomputed_A_minus_B": 0.012672856280789735
+  },
+  {
+    "dataset": "KIBA",
+    "A": "ProductFusion",
+    "B": "GraphDTA-GCN-style",
+    "table_delta": 0.0137,
+    "recomputed_A_minus_B": 0.013679064233999783
+  },
+  {
+    "dataset": "Davis",
+    "A": "ConcatFusion",
+    "B": "DeepDTA-style",
+    "table_delta": 0.0963,
+    "recomputed_A_minus_B": 0.09629727312877767
+  },
+  {
+    "dataset": "Davis",
+    "A": "ConcatFusion",
+    "B": "GraphDTA-GCN-style",
+    "table_delta": 0.034,
+    "recomputed_A_minus_B": 0.03400122664727334
+  },
+  {
+    "dataset": "Davis",
+    "A": "ProductFusion",
+    "B": "DeepDTA-style",
+    "table_delta": 0.1197,
+    "recomputed_A_minus_B": 0.1197388250508633
+  },
+  {
+    "dataset": "Davis",
+    "A": "ProductFusion",
+    "B": "GraphDTA-GCN-style",
+    "table_delta": 0.0574,
+    "recomputed_A_minus_B": 0.057442778569358977
+  }
+]

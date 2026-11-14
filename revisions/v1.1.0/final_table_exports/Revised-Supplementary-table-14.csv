@@ -1,0 +1,9 @@
+﻿Dataset,Model A,Model B,Observed Δ CI,95% paired interval,P(Δ > 0)
+KIBA,ConcatFusion,DeepDTA-style,+0.0132,-0.0017 to +0.0313,0.942
+KIBA,ConcatFusion,GraphDTA-GCN-style,+0.0142,+0.0021 to +0.0259,0.994
+KIBA,ProductFusion,DeepDTA-style,+0.0127,-0.0026 to +0.0344,0.932
+KIBA,ProductFusion,GraphDTA-GCN-style,+0.0137,+0.0030 to +0.0260,0.994
+Davis,ConcatFusion,DeepDTA-style,+0.0963,-0.0126 to +0.1435,0.954
+Davis,ConcatFusion,GraphDTA-GCN-style,+0.0340,-0.0882 to +0.1072,0.666
+Davis,ProductFusion,DeepDTA-style,+0.1197,+0.0156 to +0.1508,0.996
+Davis,ProductFusion,GraphDTA-GCN-style,+0.0574,-0.0564 to +0.1164,0.792

@@ -1,0 +1,7 @@
+﻿Dataset,Regime pair,Seed 42,Seed 123,Seed 2026
+KIBA,warm vs cold-target,+0.40,+0.20,+0.40
+KIBA,warm vs cold-drug,-0.40,+0.00,-0.40
+KIBA,cold-target vs cold-drug,-0.60,-0.40,+0.20
+Davis,warm vs cold-target,+0.20,-0.20,+0.60
+Davis,warm vs cold-drug,+0.00,+0.00,+0.00
+Davis,cold-target vs cold-drug,+0.40,+0.80,+0.40

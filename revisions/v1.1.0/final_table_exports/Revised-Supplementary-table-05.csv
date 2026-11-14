@@ -1,0 +1,7 @@
+﻿Dataset,Setting,Unique inputs,Unique drugs,Unique targets
+KIBA,warm,"11,759",1855,222
+KIBA,cold-target,"19,627",1502,47
+KIBA,cold-drug,"11,800",208,227
+DAVIS,warm,"2,559",68,379
+DAVIS,cold-target,"4,624",68,68
+DAVIS,cold-drug,"2,274",6,379

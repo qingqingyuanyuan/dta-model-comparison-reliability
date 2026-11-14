@@ -16,6 +16,9 @@ datasets/raw/
 *.tgz
 *.7z
 
+# Explicitly reviewed, checksummed public prediction/provenance projections.
+!revisions/v1.1.0/payload_parts/part-*.zip
+
 # Python
 __pycache__/
 *.pyc

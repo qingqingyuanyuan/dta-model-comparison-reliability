@@ -1,0 +1,7 @@
+﻿Dataset,Model set,Warm–target,Warm–drug,Target–drug
+KIBA,original five,+0.6000,-0.6000,-1.0000
+KIBA,capacity replacement,+0.4000,-0.2000,-0.4000
+KIBA,all seven,+0.4286,-0.4286,-0.4286
+DAVIS,original five,-0.2000,-0.4000,+0.8000
+DAVIS,capacity replacement,-0.4000,-0.2000,+0.8000
+DAVIS,all seven,-0.6190,-0.4286,+0.6190

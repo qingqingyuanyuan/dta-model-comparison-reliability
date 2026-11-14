@@ -1,0 +1,6 @@
+﻿Cohort,Comparison,Kendall tau,Exact p
+GPCR_split42,cold_drug_vs_cold_target,-0.60,0.233
+Protease_split42,cold_drug_vs_cold_target,+0.40,0.483
+Protease_split2026,cold_drug_vs_cold_target,+0.20,0.817
+Protease_cross_split,cold_drug,+0.60,0.233
+Protease_cross_split,cold_target,+0.40,0.483

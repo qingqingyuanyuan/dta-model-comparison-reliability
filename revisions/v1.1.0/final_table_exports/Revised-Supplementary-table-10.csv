@@ -1,0 +1,6 @@
+﻿Model,Per-seed CI mean,CI SD,Pooled CI,Per-seed τ-b mean,Pooled τ-b,Per-seed RMSE mean
+ConcatFusion,0.6275,0.1715,0.6660,0.2547,0.3318,1.3419
+ProductFusion,0.7116,0.1850,0.7628,0.4227,0.5251,1.0701
+AttentionFusion,0.6059,0.0663,0.6224,0.2117,0.2445,1.3787
+DeepDTA-style,0.7521,0.1634,0.7989,0.5036,0.5972,0.9082
+GraphDTA-GCN-style,0.8412,0.0646,0.8615,0.6818,0.7223,0.6173

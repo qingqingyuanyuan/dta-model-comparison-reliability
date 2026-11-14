@@ -1,0 +1,9 @@
+{
+  "version": "v1.1.0",
+  "purpose": "Publish the user-authorized revision of the existing reproducibility repository and trigger its existing Zenodo integration, if enabled.",
+  "evidence_runs": 282,
+  "historical_adam_runs_included_in_evidence": false,
+  "overwrite_previous_releases": false,
+  "zenodo_version_specific_doi": null,
+  "zenodo_publication_verified": false
+}

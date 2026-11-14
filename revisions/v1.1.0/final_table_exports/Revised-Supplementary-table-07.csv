@@ -1,0 +1,21 @@
+﻿Dataset,Setting,Model,Mean rank,Rank interval,Mean C-index
+DAVIS,cold-drug,AttentionFusion,3.44,1–5,0.6660
+DAVIS,cold-drug,ConcatFusion,2.50,1–5,0.6898
+DAVIS,cold-drug,DeepDTA-style,4.17,2–5,0.5978
+DAVIS,cold-drug,GraphDTA-GCN-style,3.44,1–5,0.6607
+DAVIS,cold-drug,ProductFusion,1.44,1–3,0.7134
+DAVIS,cold-target,AttentionFusion,4.24,2–5,0.7871
+DAVIS,cold-target,ConcatFusion,2.11,1–4,0.7903
+DAVIS,cold-target,DeepDTA-style,4.01,2–5,0.7842
+DAVIS,cold-target,GraphDTA-GCN-style,3.38,2–5,0.7881
+DAVIS,cold-target,ProductFusion,1.26,1–3,0.7966
+KIBA,cold-drug,AttentionFusion,3.31,2–5,0.7676
+KIBA,cold-drug,ConcatFusion,1.34,1–2,0.7759
+KIBA,cold-drug,DeepDTA-style,4.36,3–5,0.7627
+KIBA,cold-drug,GraphDTA-GCN-style,4.32,3–5,0.7617
+KIBA,cold-drug,ProductFusion,1.66,1–3,0.7754
+KIBA,cold-target,AttentionFusion,3.21,1–5,0.6793
+KIBA,cold-target,ConcatFusion,3.46,2–5,0.6665
+KIBA,cold-target,DeepDTA-style,2.96,1–5,0.6838
+KIBA,cold-target,GraphDTA-GCN-style,1.40,1–4,0.6935
+KIBA,cold-target,ProductFusion,3.96,2–5,0.6691

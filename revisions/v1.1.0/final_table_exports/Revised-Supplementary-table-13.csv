@@ -1,0 +1,81 @@
+﻿Dataset / regime / axis,Clusters,Model,Mean CI point,95% CI interval,Mean rank,95% rank interval,P1
+"KIBA
+warm / drug",1855,ConcatFusion,0.8534,0.8481 to 0.8585,3.83,3 to 4,0.000
+"KIBA
+warm / drug",1855,ProductFusion,0.8544,0.8491 to 0.8597,3.17,3 to 4,0.000
+"KIBA
+warm / drug",1855,AttentionFusion,0.8444,0.8388 to 0.8498,5.00,5 to 5,0.000
+"KIBA
+warm / drug",1855,DeepDTA-style,0.8591,0.8537 to 0.8641,2.00,2 to 2,0.000
+"KIBA
+warm / drug",1855,GraphDTA-GCN-style,0.8663,0.8614 to 0.8712,1.00,1 to 1,1.000
+"KIBA
+warm / target",222,ConcatFusion,0.8534,0.8449 to 0.8621,3.82,3 to 4,0.000
+"KIBA
+warm / target",222,ProductFusion,0.8544,0.8463 to 0.8628,3.18,3 to 4,0.000
+"KIBA
+warm / target",222,AttentionFusion,0.8444,0.8354 to 0.8533,5.00,5 to 5,0.000
+"KIBA
+warm / target",222,DeepDTA-style,0.8591,0.8509 to 0.8672,2.00,2 to 2,0.000
+"KIBA
+warm / target",222,GraphDTA-GCN-style,0.8663,0.8578 to 0.8747,1.00,1 to 1,1.000
+"KIBA
+cold-target / target",47,ConcatFusion,0.6665,0.6230 to 0.7136,4.13,1 to 5,0.042
+"KIBA
+cold-target / target",47,ProductFusion,0.6691,0.6313 to 0.7072,3.97,2 to 5,0.018
+"KIBA
+cold-target / target",47,AttentionFusion,0.6793,0.6365 to 0.7172,3.00,1 to 5,0.104
+"KIBA
+cold-target / target",47,DeepDTA-style,0.6838,0.6313 to 0.7303,2.35,1 to 4,0.172
+"KIBA
+cold-target / target",47,GraphDTA-GCN-style,0.6935,0.6448 to 0.7369,1.55,1 to 4,0.664
+"KIBA
+cold-drug / drug",208,ConcatFusion,0.7759,0.7550 to 0.7946,1.66,1 to 3,0.430
+"KIBA
+cold-drug / drug",208,ProductFusion,0.7754,0.7545 to 0.7984,1.55,1 to 3,0.546
+"KIBA
+cold-drug / drug",208,AttentionFusion,0.7676,0.7496 to 0.7885,3.35,2 to 5,0.002
+"KIBA
+cold-drug / drug",208,DeepDTA-style,0.7627,0.7385 to 0.7850,4.06,2 to 5,0.022
+"KIBA
+cold-drug / drug",208,GraphDTA-GCN-style,0.7617,0.7427 to 0.7819,4.39,3 to 5,0.000
+"Davis
+warm / drug",68,ConcatFusion,0.8662,0.8433 to 0.8829,4.00,4 to 4,0.000
+"Davis
+warm / drug",68,ProductFusion,0.8771,0.8576 to 0.8923,1.96,1 to 3,0.330
+"Davis
+warm / drug",68,AttentionFusion,0.8561,0.8323 to 0.8740,5.00,5 to 5,0.000
+"Davis
+warm / drug",68,DeepDTA-style,0.8778,0.8568 to 0.8947,1.66,1 to 3,0.530
+"Davis
+warm / drug",68,GraphDTA-GCN-style,0.8757,0.8575 to 0.8903,2.39,1 to 3,0.140
+"Davis
+warm / target",379,ConcatFusion,0.8662,0.8527 to 0.8784,4.00,4 to 4,0.000
+"Davis
+warm / target",379,ProductFusion,0.8771,0.8642 to 0.8903,1.92,1 to 3,0.356
+"Davis
+warm / target",379,AttentionFusion,0.8561,0.8421 to 0.8695,5.00,5 to 5,0.000
+"Davis
+warm / target",379,DeepDTA-style,0.8778,0.8659 to 0.8899,1.61,1 to 3,0.522
+"Davis
+warm / target",379,GraphDTA-GCN-style,0.8757,0.8635 to 0.8877,2.47,1 to 3,0.122
+"Davis
+cold-target / target",68,ConcatFusion,0.7903,0.7692 to 0.8094,2.56,1 to 5,0.144
+"Davis
+cold-target / target",68,ProductFusion,0.7965,0.7763 to 0.8190,1.24,1 to 3,0.804
+"Davis
+cold-target / target",68,AttentionFusion,0.7870,0.7657 to 0.8073,3.67,2 to 5,0.004
+"Davis
+cold-target / target",68,DeepDTA-style,0.7842,0.7627 to 0.8072,4.25,2 to 5,0.006
+"Davis
+cold-target / target",68,GraphDTA-GCN-style,0.7881,0.7617 to 0.8136,3.28,1 to 5,0.042
+"Davis
+cold-drug / drug",6,ConcatFusion,0.6946,0.5292 to 0.7554,2.61,1 to 5,0.136
+"Davis
+cold-drug / drug",6,ProductFusion,0.7180,0.5549 to 0.7649,1.49,1 to 3,0.592
+"Davis
+cold-drug / drug",6,AttentionFusion,0.6682,0.5411 to 0.7648,3.00,1 to 5,0.066
+"Davis
+cold-drug / drug",6,DeepDTA-style,0.5983,0.5108 to 0.6675,4.90,4 to 5,0.000
+"Davis
+cold-drug / drug",6,GraphDTA-GCN-style,0.6606,0.5494 to 0.7673,3.00,1 to 4,0.206

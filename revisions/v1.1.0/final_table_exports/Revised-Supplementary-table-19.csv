@@ -1,0 +1,13 @@
+﻿Dataset,Regime,CM model,Mean Δ,SD of Δ
+KIBA,warm,D-CM,+0.0106,0.0047
+KIBA,warm,G-CM,+0.0050,0.0021
+KIBA,cold-drug,D-CM,-0.0013,0.0036
+KIBA,cold-drug,G-CM,+0.0086,0.0022
+KIBA,cold-target,D-CM,-0.0124,0.0560
+KIBA,cold-target,G-CM,-0.0004,0.0088
+DAVIS,warm,D-CM,+0.0039,0.0095
+DAVIS,warm,G-CM,+0.0080,0.0071
+DAVIS,cold-drug,D-CM,+0.0274,0.1027
+DAVIS,cold-drug,G-CM,-0.0058,0.0022
+DAVIS,cold-target,D-CM,-0.0039,0.0106
+DAVIS,cold-target,G-CM,-0.0126,0.0161

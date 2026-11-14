@@ -1,0 +1,290 @@
+[
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/deepdta_capacity_matched__davis_cold_drug_seed42__davis__cold_drug__evaluation.json",
+    "model": "deepdta_capacity_matched",
+    "dataset": "DAVIS",
+    "regime": "cold-drug",
+    "seed": 42,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/deepdta_capacity_matched__davis_cold_drug_seed123__davis__cold_drug__evaluation.json",
+    "model": "deepdta_capacity_matched",
+    "dataset": "DAVIS",
+    "regime": "cold-drug",
+    "seed": 123,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/deepdta_capacity_matched__davis_cold_drug_seed2026__davis__cold_drug__evaluation.json",
+    "model": "deepdta_capacity_matched",
+    "dataset": "DAVIS",
+    "regime": "cold-drug",
+    "seed": 2026,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/graphdta_gcn_capacity_matched__davis_cold_drug_seed42__davis__cold_drug__evaluation.json",
+    "model": "graphdta_gcn_capacity_matched",
+    "dataset": "DAVIS",
+    "regime": "cold-drug",
+    "seed": 42,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/graphdta_gcn_capacity_matched__davis_cold_drug_seed123__davis__cold_drug__evaluation.json",
+    "model": "graphdta_gcn_capacity_matched",
+    "dataset": "DAVIS",
+    "regime": "cold-drug",
+    "seed": 123,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/graphdta_gcn_capacity_matched__davis_cold_drug_seed2026__davis__cold_drug__evaluation.json",
+    "model": "graphdta_gcn_capacity_matched",
+    "dataset": "DAVIS",
+    "regime": "cold-drug",
+    "seed": 2026,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/deepdta_capacity_matched__davis_cold_target_seed42__davis__cold_target__evaluation.json",
+    "model": "deepdta_capacity_matched",
+    "dataset": "DAVIS",
+    "regime": "cold-target",
+    "seed": 42,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/deepdta_capacity_matched__davis_cold_target_seed123__davis__cold_target__evaluation.json",
+    "model": "deepdta_capacity_matched",
+    "dataset": "DAVIS",
+    "regime": "cold-target",
+    "seed": 123,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/deepdta_capacity_matched__davis_cold_target_seed2026__davis__cold_target__evaluation.json",
+    "model": "deepdta_capacity_matched",
+    "dataset": "DAVIS",
+    "regime": "cold-target",
+    "seed": 2026,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/graphdta_gcn_capacity_matched__davis_cold_target_seed42__davis__cold_target__evaluation.json",
+    "model": "graphdta_gcn_capacity_matched",
+    "dataset": "DAVIS",
+    "regime": "cold-target",
+    "seed": 42,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/graphdta_gcn_capacity_matched__davis_cold_target_seed123__davis__cold_target__evaluation.json",
+    "model": "graphdta_gcn_capacity_matched",
+    "dataset": "DAVIS",
+    "regime": "cold-target",
+    "seed": 123,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/graphdta_gcn_capacity_matched__davis_cold_target_seed2026__davis__cold_target__evaluation.json",
+    "model": "graphdta_gcn_capacity_matched",
+    "dataset": "DAVIS",
+    "regime": "cold-target",
+    "seed": 2026,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/deepdta_capacity_matched__davis_warm_seed42__davis__warm__evaluation.json",
+    "model": "deepdta_capacity_matched",
+    "dataset": "DAVIS",
+    "regime": "warm",
+    "seed": 42,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/deepdta_capacity_matched__davis_warm_seed123__davis__warm__evaluation.json",
+    "model": "deepdta_capacity_matched",
+    "dataset": "DAVIS",
+    "regime": "warm",
+    "seed": 123,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/deepdta_capacity_matched__davis_warm_seed2026__davis__warm__evaluation.json",
+    "model": "deepdta_capacity_matched",
+    "dataset": "DAVIS",
+    "regime": "warm",
+    "seed": 2026,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/graphdta_gcn_capacity_matched__davis_warm_seed42__davis__warm__evaluation.json",
+    "model": "graphdta_gcn_capacity_matched",
+    "dataset": "DAVIS",
+    "regime": "warm",
+    "seed": 42,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/graphdta_gcn_capacity_matched__davis_warm_seed123__davis__warm__evaluation.json",
+    "model": "graphdta_gcn_capacity_matched",
+    "dataset": "DAVIS",
+    "regime": "warm",
+    "seed": 123,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/graphdta_gcn_capacity_matched__davis_warm_seed2026__davis__warm__evaluation.json",
+    "model": "graphdta_gcn_capacity_matched",
+    "dataset": "DAVIS",
+    "regime": "warm",
+    "seed": 2026,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/deepdta_capacity_matched__kiba_cold_drug_seed42__kiba__cold_drug__evaluation.json",
+    "model": "deepdta_capacity_matched",
+    "dataset": "KIBA",
+    "regime": "cold-drug",
+    "seed": 42,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/deepdta_capacity_matched__kiba_cold_drug_seed123__kiba__cold_drug__evaluation.json",
+    "model": "deepdta_capacity_matched",
+    "dataset": "KIBA",
+    "regime": "cold-drug",
+    "seed": 123,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/deepdta_capacity_matched__kiba_cold_drug_seed2026__kiba__cold_drug__evaluation.json",
+    "model": "deepdta_capacity_matched",
+    "dataset": "KIBA",
+    "regime": "cold-drug",
+    "seed": 2026,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/graphdta_gcn_capacity_matched__kiba_cold_drug_seed42__kiba__cold_drug__evaluation.json",
+    "model": "graphdta_gcn_capacity_matched",
+    "dataset": "KIBA",
+    "regime": "cold-drug",
+    "seed": 42,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/graphdta_gcn_capacity_matched__kiba_cold_drug_seed123__kiba__cold_drug__evaluation.json",
+    "model": "graphdta_gcn_capacity_matched",
+    "dataset": "KIBA",
+    "regime": "cold-drug",
+    "seed": 123,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/graphdta_gcn_capacity_matched__kiba_cold_drug_seed2026__kiba__cold_drug__evaluation.json",
+    "model": "graphdta_gcn_capacity_matched",
+    "dataset": "KIBA",
+    "regime": "cold-drug",
+    "seed": 2026,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/deepdta_capacity_matched__kiba_cold_target_seed42__kiba__cold_target__evaluation.json",
+    "model": "deepdta_capacity_matched",
+    "dataset": "KIBA",
+    "regime": "cold-target",
+    "seed": 42,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/deepdta_capacity_matched__kiba_cold_target_seed123__kiba__cold_target__evaluation.json",
+    "model": "deepdta_capacity_matched",
+    "dataset": "KIBA",
+    "regime": "cold-target",
+    "seed": 123,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/deepdta_capacity_matched__kiba_cold_target_seed2026__kiba__cold_target__evaluation.json",
+    "model": "deepdta_capacity_matched",
+    "dataset": "KIBA",
+    "regime": "cold-target",
+    "seed": 2026,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/graphdta_gcn_capacity_matched__kiba_cold_target_seed42__kiba__cold_target__evaluation.json",
+    "model": "graphdta_gcn_capacity_matched",
+    "dataset": "KIBA",
+    "regime": "cold-target",
+    "seed": 42,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/graphdta_gcn_capacity_matched__kiba_cold_target_seed123__kiba__cold_target__evaluation.json",
+    "model": "graphdta_gcn_capacity_matched",
+    "dataset": "KIBA",
+    "regime": "cold-target",
+    "seed": 123,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/graphdta_gcn_capacity_matched__kiba_cold_target_seed2026__kiba__cold_target__evaluation.json",
+    "model": "graphdta_gcn_capacity_matched",
+    "dataset": "KIBA",
+    "regime": "cold-target",
+    "seed": 2026,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/deepdta_capacity_matched__kiba_warm_seed42__kiba__warm__evaluation.json",
+    "model": "deepdta_capacity_matched",
+    "dataset": "KIBA",
+    "regime": "warm",
+    "seed": 42,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/deepdta_capacity_matched__kiba_warm_seed123__kiba__warm__evaluation.json",
+    "model": "deepdta_capacity_matched",
+    "dataset": "KIBA",
+    "regime": "warm",
+    "seed": 123,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/deepdta_capacity_matched__kiba_warm_seed2026__kiba__warm__evaluation.json",
+    "model": "deepdta_capacity_matched",
+    "dataset": "KIBA",
+    "regime": "warm",
+    "seed": 2026,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/graphdta_gcn_capacity_matched__kiba_warm_seed42__kiba__warm__evaluation.json",
+    "model": "graphdta_gcn_capacity_matched",
+    "dataset": "KIBA",
+    "regime": "warm",
+    "seed": 42,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/graphdta_gcn_capacity_matched__kiba_warm_seed123__kiba__warm__evaluation.json",
+    "model": "graphdta_gcn_capacity_matched",
+    "dataset": "KIBA",
+    "regime": "warm",
+    "seed": 123,
+    "all_table_values_match_raw_metrics": true
+  },
+  {
+    "source": "DTA_Complete_Handover_20261114/04_\u65e2\u6709\u9879\u76ee\u5b8c\u6574\u5f52\u6863_\u5386\u53f2\u7248\u672c/11-\u53c2\u6570\u5339\u914d\u57fa\u7ebfR1#6/\u65b0\u589e36\u7ec4AdamW\u9010\u884c\u9884\u6d4b/graphdta_gcn_capacity_matched__kiba_warm_seed2026__kiba__warm__evaluation.json",
+    "model": "graphdta_gcn_capacity_matched",
+    "dataset": "KIBA",
+    "regime": "warm",
+    "seed": 2026,
+    "all_table_values_match_raw_metrics": true
+  }
+]

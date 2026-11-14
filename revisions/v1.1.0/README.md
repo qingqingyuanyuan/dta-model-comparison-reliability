@@ -1,0 +1,15 @@
+# v1.1.0 revision materials
+
+This revision combines the current 192-run kinase evidence with 90 external GPCR/protease runs, without pooling the historical Adam exploration into the total. All previous immutable Git/Zenodo tags remain distinct.
+
+The independent ZIPs in `payload_parts/` use the member paths listed in `payload_index.json`. Run the repository's `scripts/unpack_revision_v110.py` into a new empty directory. The result contains `kinase_192/`, `external_90/`, `final_checks/` and source/omission inventories.
+
+`kinase_192/` retains the supplied final v1.0.2 candidate's training/evaluation implementations, frozen integer membership/scalers, per-run evaluation metadata, history files and prediction-only projections. Weights, large logs, original optimizer-evidence checkpoints and private authoring helpers are explicitly omitted. Do not run the inherited `dta_reproduce.py verify` checkpoint gate against this reduced payload: that command requires omitted checkpoint files. Its separate label/metric tools need independently acquired upstream files, recorded dependencies and a C++ compiler; the current packaging step does not claim to rerun those historical metric reconstructions.
+
+`external_90/` contains the corrected submission-supplied derivative package. Source statistical CSVs are retained as received; 540 C-index/RMSE/MAE values and 90 checkpoint/prediction hash pairs were independently checked in the revision audit. The projection CSVs omit source features and affinity labels. Full raw result archives are needed by the inherited `recompute90_from_original_result_archives.py`; its private local roots are provenance, not publicly downloadable inputs. Existing preparation code records source URLs, versions and hashes. Do not misrepresent these public projections as the original labeled prediction files.
+
+`final_table_exports/` and payload `external_90/final_table_exports/` are corrected table transcriptions, not new experiments. Public projections remove source SMILES and observed labels. Physical table file numbers follow DOCX order, not S-table labels (multi-panel tables add physical tables). S17 errors are raw-scale, S13 uses A-B, S18 reports paired mean/sample SD, and S22 uses sample SD (ddof=1). Source calculations/bootstrap summaries are not relabeled as newly regenerated.
+
+The protease cohorts share 2 test sequences and 163 cold-drug entities. GPCR cold-target has 7 independent test sequences. External comparisons use unequal original capacities. Conditional resampling does not increase the number of independent entities. This limited two-class extension supports qualified comparison methodology, not universal reversal, architecture supremacy, prospective discovery or zero-shot cross-family transfer.
+
+No manuscript, reviewer correspondence, author funding approval or institutional signature is distributed as a public research file. The optional main-figure artwork is kept in the private submission package; the numerical/public code update does not require publishing confidential submission documents.

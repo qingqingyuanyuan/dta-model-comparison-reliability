@@ -1,0 +1,6 @@
+batch,comparison,tau,p
+GPCR_split42,cold_drug_vs_cold_target,-0.6,0.23333333333333334
+Protease_split42,cold_drug_vs_cold_target,0.4,0.48333333333333334
+Protease_split2026,cold_drug_vs_cold_target,0.2,0.8166666666666667
+Protease_cross_split,cold_drug,0.6,0.23333333333333334
+Protease_cross_split,cold_target,0.4,0.48333333333333334

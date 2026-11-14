@@ -1,0 +1,30 @@
+name: Publish reproducibility revision
+on:
+  push:
+    branches: [main]
+    paths: [docs/release-request-v1.1.0.json]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-reproducibility-v1.1.0
+  cancel-in-progress: false
+jobs:
+  verify-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify and unpack the exact public payload
+        run: python3 scripts/unpack_revision_v110.py --output /tmp/dta-v110-verified
+      - name: Publish the verified source revision
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: v1.1.0
+        shell: bash
+        run: |
+          set -euo pipefail
+          if gh release view "$VERSION" >/dev/null 2>&1; then
+            echo "Release already exists; no existing tag or release will be overwritten."
+            exit 0
+          fi
+          gh release create "$VERSION" --target "$GITHUB_SHA" --title "v1.1.0 — Expanded 282-run revision evidence" --notes-file docs/RELEASE_NOTES_v1.1.0.md
